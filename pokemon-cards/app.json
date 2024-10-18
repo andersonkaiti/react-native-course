@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Pokemon Cards",
+    "slug": "pokemon-cards",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/pokebola.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/pokebola.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.andersonkaiti.pokemoncards"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/pokebola.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.andersonkaiti.pokemoncards"
+    },
+    "web": {
+      "favicon": "./assets/pokebola.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2659c123-4f1b-4ebd-88d2-27dce0e8d44b"
+      }
+    }
+  }
+}
